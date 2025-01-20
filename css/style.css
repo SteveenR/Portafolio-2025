@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+.emblema-one-regular {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*encabezado*/
+
+.container-fluid1 {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.video-fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.encabezado {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-family: "Emblema One", system-ui;
+    background: linear-gradient(180deg,
+            rgb(255, 255, 255) 0%,
+            rgba(255, 255, 255, 0.411) 100%);
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+/*foto perfil laboral*/
+
+.perfil {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #ffffff;
+    text-align: center;
+    z-index: 1;
+}
+
+/*Introducción al portafolio*/
+
+.introduccion {
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.resumen {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-left: auto;
+}
+
+/*Trabajos*/
+/*Diseño para Impresión*/
+
+.mitrabajo {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    color: black;
+    margin:10px;
+}
+
+.impresion, .brandingc, .publicidadc {
+    background-color: black;
+}
+
+.diseñoimp {
+    height: 100;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.diseñoimpintr {
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: black;
+}
+
+/*Branding y Logotipos*/
+
+.branding, .publicidad {
+    height: 150;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 2rem;
+}
+
+.brandingintr, .diseñopubli {
+    height: 150;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: black;
+    padding: 2rem;
+}
+
+.footer {
+    padding: 2rem;
+}
+
+.rs {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+    font-size: x-large;
+}
+
+.cajaimagenes {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+}
