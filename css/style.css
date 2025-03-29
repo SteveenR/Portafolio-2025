@@ -13,7 +13,7 @@
 .container-fluid1 {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: auto;
     overflow: hidden;
 }
 
@@ -156,4 +156,35 @@
     align-items: center;
     justify-content: space-evenly;
     height: 80px;
+}
+
+.pa, .tp {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 30px;
+}
+
+.ilustracions, .ilustracionc {
+    align-items: center;
+}
+
+.titulosemaforo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.psilu, .desgif {
+    font-size: medium;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.ilustracionc {
+    background-color: #000000;
+}
+
+.titulocadena {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: #ffffff;
 }
